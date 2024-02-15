@@ -11,6 +11,8 @@
 		BFAC05612B7DDC1500DB54C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC05602B7DDC1500DB54C0 /* ContentView.swift */; };
 		BFAC05632B7DDC1700DB54C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAC05622B7DDC1700DB54C0 /* Assets.xcassets */; };
 		BFAC05672B7DDC1700DB54C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAC05662B7DDC1700DB54C0 /* Preview Assets.xcassets */; };
+		BFAC056E2B7DE46900DB54C0 /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC056D2B7DE46900DB54C0 /* CustomColorPicker.swift */; };
+		BFAC05702B7DE4A000DB54C0 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC056F2B7DE4A000DB54C0 /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BFAC05622B7DDC1700DB54C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFAC05642B7DDC1700DB54C0 /* DataFlow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataFlow.entitlements; sourceTree = "<group>"; };
 		BFAC05662B7DDC1700DB54C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFAC056D2B7DE46900DB54C0 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
+		BFAC056F2B7DE4A000DB54C0 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				BFAC055E2B7DDC1500DB54C0 /* DataFlowApp.swift */,
 				BFAC05602B7DDC1500DB54C0 /* ContentView.swift */,
+				BFAC056D2B7DE46900DB54C0 /* CustomColorPicker.swift */,
 				BFAC05622B7DDC1700DB54C0 /* Assets.xcassets */,
 				BFAC05642B7DDC1700DB54C0 /* DataFlow.entitlements */,
 				BFAC05652B7DDC1700DB54C0 /* Preview Content */,
+				BFAC056F2B7DE4A000DB54C0 /* ColorCircleView.swift */,
 			);
 			path = DataFlow;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAC05702B7DE4A000DB54C0 /* ColorCircleView.swift in Sources */,
 				BFAC05612B7DDC1500DB54C0 /* ContentView.swift in Sources */,
 				BFAC055F2B7DDC1500DB54C0 /* DataFlowApp.swift in Sources */,
+				BFAC056E2B7DE46900DB54C0 /* CustomColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
